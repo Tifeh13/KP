@@ -61,7 +61,7 @@ function Move() {
                            <iframe width="100%" height="530" src="https://www.youtube.com/embed/qzLVqyV4Y_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                            </div>
                            <div className="view">
-                           <a href="https://www.youtube.com/channel/@Thatboytv">View All</a>
+                           <a href="https://www.youtube.com/channel/@ThatboyTV-fe7kx">View All</a>
                             </div>
                         </div>
                     </div>
