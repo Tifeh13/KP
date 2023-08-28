@@ -104,7 +104,7 @@
 .view{
     display: grid;
     place-content: center;
-    padding-top: 2rem;
+    padding-top: 3.5rem;
 }
 .view a{
     color:#fff;
