@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(39deg, rgba(30, 30, 30, 0.60) 0%, rgba(255, 255, 255, 0.00) 100%), url('../assets/Kp1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.nav-1{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.nav-2 {
+    display: flex;
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    width: 100%;
+}  
+.number {
+    display: flex;
+    gap: 10px;
+}
+.number a{
+    text-decoration: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.call{
+    padding-top: 5px;
+    color: #000;
+}
+.video h1{
+    color: #FFF;
+    font-family: Caveat Brush;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.video{
+    padding-top: 10rem;
+}
+.video p{
+    color: #FFF;
+    font-family: Caveat Brush;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 47%;
+}
+.btn{
+    padding-top: 3rem;
+}
+.btn button{
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px 40px;
+    font-family: Caveat Brush;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+.call{
+    font-size: 28px;
+}
+@media (max-width:1000px){
+    .call{
+        font-size: 20px;
+    }
+    .number a {
+        text-decoration: none;
+        color: #000;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .video p {
+        color: #FFF;
+        font-family: Caveat Brush;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 72%;
+    }
+    .video h1 {
+        color: #FFF;
+        font-family: Caveat Brush;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+@media (max-width:700px){
+    .video h1 {
+        color: #FFF;
+        font-family: Caveat Brush;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .video p {
+        color: #FFF;
+        font-family: Caveat Brush;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 80%;
+    }
+}
+@media (max-width:600px){
+    .video h1 {
+        color: #FFF;
+        font-family: Caveat Brush;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .video {
+        padding-top: 7rem;
+    }
+    .video p {
+        color: #FFF;
+        font-family: Caveat Brush;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 100%;
+    }
+}
+@media (max-width:500px){
+    .number a {
+        text-decoration: none;
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .number {
+        display: flex;
+        gap: 3px;
+    }
+    .number a {
+        text-decoration: none;
+        color: #000;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        padding-top: 3px;
+        line-height: normal;
+    }
+    .call {
+        font-size: 14px;
+    }
+}
+@media (max-width:451px){
+    .video h1 {
+        color: #FFF;
+        font-family: Caveat Brush;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .btn button {
+        border-radius: 10px;
+        background: #000;
+        color: #fff;
+        padding: 10px 30px;
+        font-family: Caveat Brush;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor: pointer;
+    }
+    .nav-img img{
+        width: 120px;
+    }
+}
+@media(max-width:358px){
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2rem;
+        width: 100%;
+        gap: 30px;
+    }
+    .number a {
+        text-decoration: none;
+        color: #000;
+        font-family: Inter;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 600;
+        padding-top: 5px;
+        line-height: normal;
+    }
+    .nav-img img{
+        width: 100px;
+    }
+    .video h1 {
+        color: #FFF;
+        font-family: Caveat Brush;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}

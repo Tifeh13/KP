@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.talk-1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background: #000;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.talk-2{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.talk-3{
+    display: inline;
+    width: 100%;
+}
+.talk-container{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.talk-container h1{
+    color: #FFF;
+    font-family: Caveat Brush;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.con-1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+.con-2{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+.con-3{
+    display: inline;
+    width: 100%;
+    background: #D9D9D9;
+    padding: 2rem 4rem;
+    border-radius: 30px;
+    border: 5px solid #000;
+}
+.con-4{
+    display: inline;
+    width: 100%;
+    border: 5px solid #000;
+}
+form{
+    display: inline;
+    width: 100%; 
+}
+input{
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    padding-left: 2rem;
+    color: #000;
+    font-family: Caveat Brush;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+input::placeholder{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Caveat Brush;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+textarea{
+    border-radius: 30px;
+    border: 3px solid #000;
+    padding: 2rem;
+    color: #000;
+    font-family: Caveat Brush;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    resize: none;
+}
+textarea::placeholder{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Caveat Brush;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    width: 100%;
+}
+.btn-3 button{
+    width: 50%;
+    border-radius: 30px;
+    background: #090909;
+    color: #fff;
+    font-family: Caveat Brush;
+    font-size: 32px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: auto;
+    padding: 1rem;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    align-items: center;
+}
+.call-4{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 30px;
+}
+.call-5{
+    padding-top: 40px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.call-4 a{
+    color: #fff;
+    font-family: Caveat Brush;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.call-4 span{
+    color: #fff;
+    font-family: Caveat Brush;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.call-5 a{
+    color: #fff;
+    font-family: Caveat Brush;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.call-5 span{
+    color: #fff;
+    font-family: Caveat Brush;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.last a{
+    text-decoration: none;
+    color: #fff;
+}
+.last span{
+    text-decoration: none;
+    color: #fff;
+}
+.last-2 a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+.last-2 span{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+@media(max-width:1050px){
+    .call-4{
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 30px;
+    }
+    .talk-container {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        padding-top: 0rem;
+        padding-bottom: 2rem;
+    }
+}
+@media(max-width:800px){
+    .con-2 {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+    .con-3 {
+        display: inline;
+        width: 100%;
+        background: #D9D9D9;
+        padding: 2rem 2rem;
+        border-radius: 30px;
+        border: 5px solid #000;
+    }
+    .btn-3 button {
+        width: 45%;
+        border-radius: 30px;
+        background: #090909;
+        color: #fff;
+        font-family: Caveat Brush;
+        font-size: 23px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        height: auto;
+        padding: 1rem;
+    }
+    .talk-container h1 {
+        color: #FFF;
+        font-family: Caveat Brush;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+@media (max-width:651px){
+    .last span {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+    }
+    input {
+        width: 100%;
+        height: 57px;
+        border-radius: 10px;
+        border: 3px solid #000;
+        padding-left: 1rem;
+        color: #000;
+        font-family: Caveat Brush;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    input::placeholder{
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Caveat Brush;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .talk-container h1 {
+        color: #FFF;
+        font-family: Caveat Brush;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+@media(max-width:561px){
+    .last {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem;
+        align-items: center;
+        gap: 20px;
+    }
+    .last span {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+    }
+    .call-4{
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 19px;
+    }
+}
+@media(max-width:376px){
+    .btn-3 button {
+        width: 61%;
+        border-radius: 30px;
+        background: #090909;
+        color: #fff;
+        font-family: Caveat Brush;
+        font-size: 23px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        height: auto;
+        padding: 1rem;
+    }
+    .last span {
+        text-decoration: none;
+        color: #fff;
+        font-size: 13px;
+    }
+    .call-4{
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 15px;
+    }
+}
+@media(max-width:321px){
+    .last span {
+        text-decoration: none;
+        color: #fff;
+        font-size: 10px;
+    }
+}
+

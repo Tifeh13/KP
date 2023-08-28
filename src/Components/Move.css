@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5rem;
+    background:#000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+}
+.main-2{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.main-3 {
+    display: flex;
+    width: 100%;
+}
+
+.box{
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.tab{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-top:none;
+    cursor: pointer;
+    position: relative;
+    /* color: #FFF; */
+    font-family: Caveat Brush;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.active-tab{
+   border: none;
+}
+
+.active-tab::after{
+    border-bottom: 6px solid #fff;
+    /* border-radius: 5px; */
+    content:"";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-bottom: 3rem;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: initial;
+    animation: new 0.5s;
+   transform: translate(-50%,-50%);
+}
+@keyframes new{
+    from{
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        background: grey;
+    }
+    to{
+        top: 0px;
+        left: 0;
+        right: 0;
+        border: 2px solid grey;
+    }
+}
+.contents{
+    position: relative;
+}
+
+.content{
+    display: none;
+    position: relative;
+}
+
+.active-content{
+    display: block;
+    transition: all 1s ease-in-out;
+    animation: example 0.3s;
+}
+.want{
+    display: block;
+    width: 100%;
+}
+.view{
+    display: grid;
+    place-content: center;
+    padding-top: 5rem;
+}
+.view a{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Caveat Brush;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes new{
+    from{
+       margin: 0;
+    }
+    to{
+        margin-left: 10px;
+    }
+}
+
+.movies{
+    width: 100%;
+    margin-top: 2rem;
+    height: 535px;
+}
+
+.event{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 4rem;
+    padding-top: 2rem;
+}
+.event-1{
+    width: 100%;
+    height: 477px;
+}
+
+@media (max-width:800px){
+    .event {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        gap: 7rem;
+        padding-top: 2rem;
+    }
+    .tab {
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        border-top: none;
+        cursor: pointer;
+        position: relative;
+        /* color: #FFF; */
+        font-family: Caveat Brush;
+        font-size: 29px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .active-tab::after {
+        border-bottom: 6px solid #fff;
+        /* border-radius: 5px; */
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding-bottom: 3rem;
+        right: 0;
+        bottom: 0;
+        width: 120px;
+        background: initial;
+        animation: new 0.5s;
+        transform: translate(-50%,-50%);
+    }
+}
+@media (max-width:560px){
+    .tab {
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        border-top: none;
+        cursor: pointer;
+        position: relative;
+        /* color: #FFF; */
+        font-family: Caveat Brush;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .active-tab::after {
+        border-bottom: 6px solid #fff;
+        /* border-radius: 5px; */
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding-bottom: 3rem;
+        right: 0;
+        bottom: 0;
+        width: 100px;
+        background: initial;
+        animation: new 0.5s;
+        transform: translate(-50%,-50%);
+    }
+}
+@media (max-width:500px){
+    .tab {
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        border-top: none;
+        cursor: pointer;
+        position: relative;
+        /* color: #FFF; */
+        font-family: Caveat Brush;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .active-tab::after {
+        border-bottom: 6px solid #fff;
+        /* border-radius: 5px; */
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding-bottom: 3rem;
+        right: 0;
+        bottom: 0;
+        width: 90px;
+        background: initial;
+        animation: new 0.5s;
+        transform: translate(-50%,-50%);
+    }
+}
+
