@@ -23,7 +23,7 @@ function Talk() {
                     <input type="email" name="" id="" required placeholder="Email" />
                     <br />
                     <br />
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+                    <textarea name="" id="" placeholder="Message" required></textarea>
                     <div className="btn-3">
                       <button>Text Me</button>
                     </div>

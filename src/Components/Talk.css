@@ -99,6 +99,7 @@ textarea{
     line-height: normal;
     width: 100%;
     resize: none;
+    height: 200px;
 }
 textarea::placeholder{
     color: rgba(0, 0, 0, 0.60);
@@ -335,7 +336,7 @@ textarea::placeholder{
     .last span {
         text-decoration: none;
         color: #fff;
-        font-size: 13px;
+        font-size: 11px;
     }
     .call-4{
         padding-top: 15px;
