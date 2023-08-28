@@ -36,7 +36,7 @@ function Book() {
                                     <li>Shooting</li>
                                     <li>Editing</li>
                                     <li>2 weeks Delivery</li>
-                                    <li style={{ display: '' }}></li>
+                                    <br />
                                 </ul>
                                 <div className="btn-2">
                                 <button onClick={toggleModal}>Book</button>

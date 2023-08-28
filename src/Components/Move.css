@@ -107,7 +107,7 @@
     padding-top: 5rem;
 }
 .view a{
-    color: rgba(255, 255, 255, 0.70);
+    color:#fff;
     font-family: Caveat Brush;
     font-size: 35px;
     font-style: normal;
@@ -242,6 +242,16 @@
         background: initial;
         animation: new 0.5s;
         transform: translate(-50%,-50%);
+    }
+    .view a{
+        color:#fff;
+        font-family: Caveat Brush;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+        cursor: pointer;
     }
 }
 
