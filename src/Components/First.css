@@ -212,6 +212,9 @@ nav {
     .nav-img img{
         width: 120px;
     }
+    .video{
+        padding-top: 12rem;
+    }
 }
 @media(max-width:358px){
     nav {
